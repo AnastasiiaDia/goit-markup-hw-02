@@ -26,7 +26,6 @@ a {
 .logo-header-web {
   width: 44px;
   height: 21px;
-
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
@@ -69,7 +68,7 @@ a {
 .nav-list .nav-list-item:hover,
 .nav-list .nav-list-item:focus,
 .nav-list .nav-list-item:active {
-  color: #404bbf;
+  color: var(--pressed-state-color);
   text-decoration: underline;
   /**
     |============================
@@ -89,7 +88,7 @@ a {
 .address-list-mail:active,
 .address-list-mail:focus,
 .address-list-mail:hover {
-  color: #404bbf;
+  color: var(--pressed-state-color);
 }
 /**
   |============================
@@ -113,7 +112,7 @@ a {
 .button:hover,
 .button:focus,
 .button:active {
-  background: #404bbf;
+  background: var(--pressed-state-color);
 }
 .footer {
   background-color: var(--main-header-color);
@@ -121,7 +120,7 @@ a {
 .logo-footer-studio {
   width: 71px;
   height: 21px;
-  color: #f4f4fd;
+  color: var(--light);
 }
 .footer-text {
   font-weight: 400;
