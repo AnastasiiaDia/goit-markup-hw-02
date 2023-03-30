@@ -7,6 +7,7 @@ body {
   --body-text-color: #434455;
   --primary-brand-color: #4d5ae5;
   --light: #f4f4fd;
+  --pressed-state-color: #404bbf;
 }
 p {
   color: var(--body-text-color);
