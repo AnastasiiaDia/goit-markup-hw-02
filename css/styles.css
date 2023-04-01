@@ -84,7 +84,9 @@ p {
   letter-spacing: 0.02em;
   color: var(--body-text-color);
 }
-
+.address-list-mail {
+  color: var(--body-text-color);
+}
 .address-list-mail:active,
 .address-list-mail:focus,
 .address-list-mail:hover {
@@ -128,8 +130,8 @@ p {
   background: var(--primary-brand-color);
 }
 .button-order:hover,
-.button.button-order:focus,
-.button.button-order:active {
+.button-order:focus,
+.button-order:active {
   background: var(--pressed-state-color);
 }
 .footer {
