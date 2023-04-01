@@ -69,7 +69,7 @@ p {
 .nav-list-item:focus,
 .nav-list-item:active {
   color: var(--pressed-state-color);
-  text-decoration: underline;
+
   /**
     |============================
     | address-list
@@ -84,12 +84,12 @@ p {
   letter-spacing: 0.02em;
   color: var(--body-text-color);
 }
-.address-list-mail {
+.address-contact {
   color: var(--body-text-color);
 }
-.address-list-mail:active,
-.address-list-mail:focus,
-.address-list-mail:hover {
+.address .address-contact:active,
+.address .address-contact:focus,
+.address .address-contact:hover {
   color: var(--pressed-state-color);
 }
 
@@ -198,5 +198,5 @@ p {
 
   /* NAVY BLUE */
 
-  color: var(--main-header-color) #2e2f42;
+  color: var(--main-header-color);
 }
