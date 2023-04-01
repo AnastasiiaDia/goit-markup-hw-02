@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--body-text-color);
-  background-color: #ffffff;
+  background-color: var(--white-background-color);
 }
 :root {
   --main-header-color: #2e2f42;
@@ -9,11 +9,25 @@ body {
   --primary-brand-color: #4d5ae5;
   --light: #f4f4fd;
   --pressed-state-color: #404bbf;
+  --white-background-color: #ffffff;
 }
 p {
   color: var(--body-text-color);
 }
+.hero {
+  background-color: var(--main-header-color);
+}
+.header-one {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 
+  /* WHITE */
+
+  color: var(--white-background-color);
+}
 .link {
   text-decoration: none;
 }
@@ -76,6 +90,7 @@ p {
 .address-list-mail:hover {
   color: var(--pressed-state-color);
 }
+
 /**
   |============================
   | button
@@ -88,15 +103,33 @@ p {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-
-  /* WHITE */
-
-  color: #ffffff;
-  background: var(--primary-brand-color);
+  color: var(--primary-brand-color);
+  background: var(--light);
+  /* IRIS */
 }
 .button:hover,
 .button:focus,
 .button:active {
+  color: var(--white-background-color);
+  background-color: var(--pressed-state-color);
+}
+
+.button-order {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+
+  /* WHITE */
+
+  color: var(--white-background-color);
+  background: var(--primary-brand-color);
+}
+.button-order:hover,
+.button.button-order:focus,
+.button.button-order:active {
   background: var(--pressed-state-color);
 }
 .footer {
@@ -112,7 +145,7 @@ p {
   letter-spacing: 0.02em;
   color: var(--light);
 }
-.header-three {
+.header-three-portfolio {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
