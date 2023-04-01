@@ -175,6 +175,10 @@ p {
 .our-team {
   background-color: var(--light);
 }
+.our-team-item {
+  background-color: var(--white-background-color);
+}
+
 .header-two: {
   font-weight: 700;
   font-size: 36px;
@@ -183,4 +187,16 @@ p {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   --main-header-color: #2e2f42;
+}
+.header-main-page {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  /* NAVY BLUE */
+
+  color: var(--main-header-color) #2e2f42;
 }
